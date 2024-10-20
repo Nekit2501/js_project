@@ -1,0 +1,36 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.n {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.p {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.k {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+  position: relative;
+  border-radius: 20px;
+}

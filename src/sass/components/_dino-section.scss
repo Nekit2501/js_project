@@ -9,6 +9,7 @@
   border-style: outset;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .dino {
@@ -19,4 +20,54 @@
   position: absolute;
   bottom: 0px;
   left: 0px;
+}
+
+.kaktus {
+  position: absolute;
+  background-image: url(../../assets/img/google-dino/cactus1.png);
+  width: 750px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  border-color: black;
+  border-style: outset;
+  bottom: 5px;
+  left: 300px;
+  animation: kaktus1 5s linear infinite;
+}
+
+.kaktus {
+}
+@keyframes kaktus1 {
+  0% {
+    bottom: 5px;
+    left: 600px;
+  }
+
+  50% {
+    left: 200px;
+  }
+
+  100% {
+    left: -400px;
+  }
+}
+
+.dinojump {
+  animation: jumpDinoAnim 1s linear;
+}
+
+@keyframes jumpDinoAnim {
+  0% {
+    bottom: 0px;
+  }
+
+  100% {
+    bottom: 90px;
+  }
+
+  // 100% {
+  //   bottom: 0px;
+  // }
 }
